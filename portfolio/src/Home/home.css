@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap");
+
+body {
+  font-family: "Noto Sans", sans-serif !important;
+}
+
+.title {
+  font-weight: 100;
+  text-align: center;
+}
+
+.animals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template: 1fr / 1fr 1fr 1fr;
+  max-width: 1300px;
+  margin: 40px;
+  gap: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.animals__content {
+  max-width: 400px;
+}
+
+.animals__content img {
+  width: 100%;
+}
