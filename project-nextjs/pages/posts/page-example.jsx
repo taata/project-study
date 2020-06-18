@@ -4,7 +4,9 @@ export default function PostExample() {
   return (
     <>
       <h1> Page two</h1>
-      <Link href="/">Back to home</Link>
+      <Link href="/">
+        <a className="">Back to home </a>
+      </Link>
     </>
   );
 }
